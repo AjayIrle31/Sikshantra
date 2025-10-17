@@ -1,0 +1,61 @@
+# Shikshantra - Requirements File
+# PHP-based Academic Management System
+
+# PHP Dependencies (Note: Install via Composer if using package management)
+# Core PHP requirements: PHP >= 7.4
+
+# Database
+# MySQL >= 5.7 or MariaDB >= 10.2
+
+# Web Server
+# Apache >= 2.4 with mod_rewrite enabled
+# OR Nginx >= 1.14
+
+# PHP Extensions Required:
+# - mysqli (MySQL database connectivity)
+# - pdo (PHP Data Objects)
+# - pdo_mysql (MySQL driver for PDO)
+# - json (JSON handling)
+# - session (Session management)
+# - date (Date/Time functions)
+# - filter (Data filtering)
+# - hash (Password hashing)
+# - fileinfo (File type detection)
+# - mbstring (Multibyte string handling)
+
+# Frontend Dependencies (CDN-based, no installation required):
+# - Bootstrap 5.3.0 (CSS Framework)
+# - Bootstrap Icons 1.10.0
+# - Chart.js 3.9.0 (For reports and analytics)
+
+# Development Environment Recommendations:
+# XAMPP >= 8.0 (Windows/Mac/Linux)
+# WAMP >= 3.2 (Windows)
+# MAMP >= 6.0 (Mac)
+# LAMP Stack (Linux)
+
+# Composer Dependencies (if using Composer - optional):
+# composer require php:^7.4
+# composer require ext-mysqli:*
+# composer require ext-pdo:*
+# composer require ext-json:*
+
+# File Upload Requirements:
+# PHP ini settings:
+# file_uploads = On
+# upload_max_filesize = 64M
+# post_max_size = 64M
+# max_execution_time = 300
+# memory_limit = 256M
+
+# Security Requirements:
+# - SSL Certificate (recommended for production)
+# - Secure password hashing (PHP password_hash function)
+# - Input validation and sanitization
+# - SQL injection prevention (prepared statements)
+# - XSS protection (htmlspecialchars)
+
+# Optional Enhancements:
+# - Redis or Memcached (for session storage and caching)
+# - Elasticsearch (for advanced search functionality)
+# - SMTP server configuration (for email notifications)
