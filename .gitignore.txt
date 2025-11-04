@@ -1,0 +1,54 @@
+# -----------------------------
+# Operating System / System Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# -----------------------------
+# PHP / Composer
+# -----------------------------
+vendor/
+composer.lock
+*.cache
+
+# -----------------------------
+# IDE / Editor
+# -----------------------------
+.vscode/
+.idea/
+*.iml
+
+# -----------------------------
+# Environment / Config / Sensitive
+# -----------------------------
+.env
+config.php
+*.env
+
+# -----------------------------
+# Node / Frontend (if any)
+# -----------------------------
+node_modules/
+dist/
+build/
+
+# -----------------------------
+# Backup / Temporary Files
+# -----------------------------
+*.sql~
+*.zip
+*.tar.gz
+*.rar
+*.bak
+*.old
+*.orig
+
+# -----------------------------
+# XAMPP / Apache / PHP
+# -----------------------------
+htdocs/*  # Only if you want to ignore other projects in htdocs
